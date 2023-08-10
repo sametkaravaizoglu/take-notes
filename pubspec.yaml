@@ -1,0 +1,29 @@
+name: note_app
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #firebase
+  firebase_core: ^2.15.0
+  cloud_firestore: ^4.8.4
+
+  #state management
+  get: ^4.6.5
+
+  #utility
+  device_uuid: ^0.0.4
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
